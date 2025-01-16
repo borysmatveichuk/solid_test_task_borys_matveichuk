@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:solid_test_task_borys_matveichuk/utils/random_ext.dart';
 
+// ignore_for_file: prefer_match_file_name
 void main() {
   runApp(const MyApp());
 }
