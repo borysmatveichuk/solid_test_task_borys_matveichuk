@@ -59,7 +59,9 @@ class _MyHomePageState extends State<MyHomePage>
 
   @override
   Widget build(BuildContext context) {
+    // ignore: avoid_non_null_assertion
     final i10n = AppLocalizations.of(context)!;
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
@@ -74,10 +76,10 @@ class _MyHomePageState extends State<MyHomePage>
             child: Text(
               i10n.greetings,
               style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                color: _textColor(
-                  Color(backgroundColor),
-                ),
-              ),
+                    color: _textColor(
+                      Color(backgroundColor),
+                    ),
+                  ),
             ),
           ),
         ),

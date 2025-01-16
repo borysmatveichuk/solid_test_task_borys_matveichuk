@@ -1,5 +1,6 @@
 import 'dart:math';
 
+// ignore_for_file: no_magic_number
 /// Extension for Random class from 'dart:math' lib
 ///
 extension RandomExt on Random {
