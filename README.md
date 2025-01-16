@@ -1,4 +1,4 @@
-# borys_matveichuk_solid_flutter_task
+# solid_test_task_borys_matveichuk
 
 A test Flutter project to demonstrate colors changing.
 
